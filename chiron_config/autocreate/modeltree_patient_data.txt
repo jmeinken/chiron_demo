@@ -1,0 +1,8 @@
+# list modelnames in tree format
+# put * after name to make it a DataRoot
+# put @ after a tree name to indicate a lookup table (table will not get its own DataCategory)
+# put ^ after a tree name to disassociate with parent root
+
+
+patient_data.Patient*
+-Biospecimen*

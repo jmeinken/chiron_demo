@@ -1,0 +1,5 @@
+[submodule "chiron"]
+	path = chiron
+	url = https://github.com/cchmc-bmi-os/chiron.git
+        ignore = all
+
