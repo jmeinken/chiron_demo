@@ -4,7 +4,7 @@
 
 - clone this repository
 ```
-git clone [repository url]
+git clone https://github.com/jmeinken/chiron_demo.git
 ```
 - clone the chiron repository inside this repository
 ```
