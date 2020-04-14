@@ -4,7 +4,7 @@
 
 - clone this repository
 ```
-git clone [repository url]
+git clone https://github.com/jmeinken/chiron_demo.git
 ```
 - clone the chiron repository inside this repository
 ```
@@ -15,7 +15,7 @@ git clone https://github.com/cchmc-bmi-os/chiron.git
 ```
 # if desired, create and activate a virtual environment
 
-# note: This demo uses a SQLite database. Django versions after 2.2 use a 
+# note: This demo uses a prebuilt SQLite database. Django versions after 2.2 use a 
 # SQLite version that is incompatible with older RedHat systems. If this
 # applies to you, run pip install 'Django<2.2' first.
 
