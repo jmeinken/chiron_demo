@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,6 +27,8 @@ SECRET_KEY = 'tm8b!+q=2bqa4u7h16ngf=@xe8g)%q7i@se^+wxi0@_&e31!@y'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+sys.path.append("chiron")
 
 
 # Application definition
